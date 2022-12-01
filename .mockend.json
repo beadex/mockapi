@@ -18,15 +18,15 @@
         "maxLength": 150
       }
     },
-    "tags": {
-      "hasMany": "Tag"
+    "author": {
+      "name": {
+        "string": {}
+      },
+      "email": {
+        "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+      }
     },
-    "thumbnail": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
-    }
-  },
-  "Tag": {
-    "name": {
+    "tags": {
       "string": [
         "Social",
         "Art",
@@ -34,17 +34,9 @@
         "Automotive",
         "Lifestyle"
       ]
-    }
-  },
-  "Author": {
-    "name": {
-      "string": {}
     },
-    "email": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "posts": {
-      "belongsTo": "Post"
+    "thumbnail": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     }
   }
 }
