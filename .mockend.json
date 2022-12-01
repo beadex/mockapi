@@ -21,7 +21,7 @@
     "author": {
       "regexp": "[A-Z][a-z]{5,10} [A-Z][a-z]{5,10}"
     },
-    "tags": {
+    "tag": {
       "string": [
         "Social",
         "Art",
