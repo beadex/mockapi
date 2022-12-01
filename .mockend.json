@@ -19,7 +19,7 @@
       }
     },
     "author": {
-      "string": {}
+      "regexp": "[A-Z][a-z]{5,10}"
     },
     "tags": {
       "string": [
