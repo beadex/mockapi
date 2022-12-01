@@ -3,4 +3,4 @@
 ## Endpoint:
 
 - GET https://mockend.com/beewithu/mockapi/posts
-- GET https://mockend.com/beewithu/mockapi/posts/<id>
+- GET https://mockend.com/beewithu/mockapi/posts/:id
