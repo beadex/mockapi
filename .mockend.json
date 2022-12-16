@@ -1,37 +1,16 @@
 {
-  "Post": {
-    "title": {
+  "Store": {
+    "name": {
       "loremSentences": {
-        "minLength": 10,
-        "maxLength": 50
+        "minLength": 3,
+        "maxLength": 25
       }
     },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2022-12-31T23:59:59Z"
-      }
+    "totalRevenue": {
+      "int": { "min": 0, "max": 1000000 }
     },
-    "summary": {
-      "loremSentences": {
-        "minLength": 50,
-        "maxLength": 150
-      }
-    },
-    "author": {
-      "regexp": "[A-Z][a-z]{5,10} [A-Z][a-z]{5,10}"
-    },
-    "tag": {
-      "string": [
-        "Social",
-        "Art",
-        "Sport",
-        "Automotive",
-        "Lifestyle"
-      ]
-    },
-    "thumbnail": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+    "isActive": {
+      "boolean": {}
     }
   }
 }
